@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu {
+    text-align: center;
+    background-color: #0e0e0e;
+    padding: 30px 0;
+    border-bottom: 3px solid #333;
+}
+.menu-item{
+    display: inline-block;
+    margin: 0 20px;
+    color: #fff;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.menu-item:hover{
+    background-color:#333 ;
+}
+.menu-item:hover a{
+    color: #f00;
+}
+
+.logotipo{
+    display: inline-block;
+    vertical-align: middle;
+    float: inline-start;
+    margin-top: -1.8%;
+    max-width: 100px;
+}
